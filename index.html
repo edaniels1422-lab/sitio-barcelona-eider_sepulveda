@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio sobre el FC Barcelona y el fútbol español: jugadores, noticias y galería.">
+  <title>FC Barcelona | Inicio</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <a href="#contenido" class="salto-contenido">Saltar al contenido principal</a>
+
+  <header>
+    <h1>FC Barcelona</h1>
+    <nav aria-label="Navegación principal">
+     <ul>
+  <li><a href="index.html" aria-current="page">Inicio</a></li> 
+  <li class="con-submenu">
+    <a href="jugadores.html">Jugadores</a>
+    <ul class="submenu">
+      <li><a href="jugadores.html">Porteros</a></li>
+      <li><a href="jugadores.html">Defensas</a></li>
+      <li><a href="jugadores.html">Centrocampistas</a></li>
+      <li><a href="jugadores.html">Delanteros</a></li>
+    </ul>
+  </li>
+  <li><a href="noticias.html">Noticias</a></li>
+  <li><a href="galeria.html">Galería</a></li>
+</ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <label for="idioma">Idioma:</label>
+<select id="idioma">
+  <option value="es">Español</option>
+  <option value="ca">Català</option>
+  <option value="en">English</option>
+</select>
+  <p id="saludo" aria-live="polite"></p>
+    <h2>Bienvenido</h2>
+    <p>Texto de introducción al sitio.</p>
+    <section class="slider" aria-label="Imágenes destacadas del club">
+  <figure class="slide activa">
+    <img src="images/Noticia_1.jpg" alt="Vista aérea del estadio del FC Barcelona en remodelación">
+    <figcaption>El estadio en obras</figcaption>
+  </figure>
+
+  <figure class="slide">
+    <img src="images/Noticia_2.jpg" alt="Jugadores del FC Barcelona celebrando un gol">
+    <figcaption>Celebración del equipo</figcaption>
+  </figure>
+
+  <figure class="slide">
+    <img src="images/Noticia_3.jpg" alt="Escudo oficial del FC Barcelona">
+    <figcaption>Escudo del club</figcaption>
+  </figure>
+
+  <button class="slider-btn anterior" aria-label="Imagen anterior">&#10094;</button>
+  <button class="slider-btn siguiente" aria-label="Imagen siguiente">&#10095;</button>
+</section>
+  </main>
+
+   <footer>
+    <p>Eider Daniel Sepúlveda Durán — UNAD, 2026</p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html> 
